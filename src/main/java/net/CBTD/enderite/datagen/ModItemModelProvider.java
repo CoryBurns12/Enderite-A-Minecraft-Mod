@@ -18,9 +18,17 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        // Basics
         basicItem(ModItem.ENDERITE_INGOT.get());
+        basicItem(ModItem.ENDERITE_SCRAP.get());
+
+        // Handhelds
         handHeldItem(ModItem.ENDERITE_SWORD);
+        handHeldItem(ModItem.ENDERITE_MACE);
         handHeldItem(ModItem.ENDERITE_PICKAXE);
+        handHeldItem(ModItem.ENDERITE_AXE);
+        handHeldItem(ModItem.ENDERITE_HOE);
+
     }
 
     private ItemModelBuilder handHeldItem(RegistryObject<Item> item) {

@@ -55,9 +55,16 @@ public class Enderite
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItem.ENDERITE_INGOT);
+            event.accept(ModItem.ENDERITE_SCRAP);
         }
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItem.ENDERITE_SWORD);
+            event.accept(ModItem.ENDERITE_MACE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItem.ENDERITE_AXE);
+            event.accept(ModItem.ENDERITE_PICKAXE);
+            event.accept(ModItem.ENDERITE_HOE);
         }
     }
 

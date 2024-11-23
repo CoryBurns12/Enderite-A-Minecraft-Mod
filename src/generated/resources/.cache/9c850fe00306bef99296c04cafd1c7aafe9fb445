@@ -1,4 +1,8 @@
-// 1.21.1	2024-11-23T01:35:11.1545212	Item Models: enderite
+// 1.21.1	2024-11-23T16:12:47.635762	Item Models: enderite
+98618114d3189ce0cf506e560aa7931071ab5afb assets/enderite/models/item/enderite_axe.json
+be746a3e7b2a9c203a75b9682dd08e76d55ab294 assets/enderite/models/item/enderite_hoe.json
 9bde9d03bd8fd94d4915d2d674640558b89fe852 assets/enderite/models/item/enderite_ingot.json
+1a4192583475b66c9ca4de33869bbf7b3d7153d7 assets/enderite/models/item/enderite_mace.json
 cfa7097b8b639238e424c20aecfd2a9499d94f37 assets/enderite/models/item/enderite_pickaxe.json
+7e55d67c7cb246f29825453ca65f164c77f38405 assets/enderite/models/item/enderite_scrap.json
 06b0a348855057bad13dca5771381503eb551cb6 assets/enderite/models/item/enderite_sword.json

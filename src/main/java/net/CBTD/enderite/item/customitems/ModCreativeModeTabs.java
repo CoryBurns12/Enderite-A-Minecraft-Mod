@@ -19,12 +19,16 @@ public class ModCreativeModeTabs {
 
                         // Ingredients
                         output.accept(ModItem.ENDERITE_INGOT.get());
+                        output.accept(ModItem.ENDERITE_SCRAP.get());
 
                         // Weapons
                         output.accept(ModItem.ENDERITE_SWORD.get());
+                        output.accept(ModItem.ENDERITE_MACE.get());
 
                         // Tools
                         output.accept(ModItem.ENDERITE_PICKAXE.get());
+                        output.accept(ModItem.ENDERITE_AXE.get());
+                        output.accept(ModItem.ENDERITE_HOE.get());
 
                     }).build());
 }
