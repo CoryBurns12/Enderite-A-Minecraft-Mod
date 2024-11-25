@@ -1,6 +1,7 @@
 package net.CBTD.enderite;
 
 import com.mojang.logging.LogUtils;
+import net.CBTD.enderite.block.ModBlock;
 import net.CBTD.enderite.item.customitems.ModItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -35,6 +36,9 @@ public class Enderite
         // Items Registration
         ModItem.register(modEventBus);
 
+        // Block Registration
+        ModBlock.register(modEventBus);
+
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -56,6 +60,7 @@ public class Enderite
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItem.ENDERITE_INGOT);
             event.accept(ModItem.ENDERITE_SCRAP);
+            event.accept(ModBlock.STRANGE_DEBRIS);
         }
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItem.ENDERITE_SWORD);
@@ -65,6 +70,9 @@ public class Enderite
             event.accept(ModItem.ENDERITE_AXE);
             event.accept(ModItem.ENDERITE_PICKAXE);
             event.accept(ModItem.ENDERITE_HOE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlock.STRANGE_DEBRIS);
         }
     }
 

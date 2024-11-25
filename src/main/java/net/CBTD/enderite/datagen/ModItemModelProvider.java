@@ -1,6 +1,7 @@
 package net.CBTD.enderite.datagen;
 
 import net.CBTD.enderite.Enderite;
+import net.CBTD.enderite.block.ModBlock;
 import net.CBTD.enderite.item.customitems.ModItem;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;

@@ -65,9 +65,18 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItem.ENDERITE_INGOT.get()), has(ModItem.ENDERITE_INGOT.get()))
                 .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                 .save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItem.ENDERITE_INGOT.get())
+                .pattern("ABB")
+                .pattern("ABB")
+                .pattern("AA ")
+                .define('A', ModItem.ENDERITE_SCRAP.get())
+                .define('B', Items.NETHERITE_INGOT)
+                .unlockedBy(getHasName(ModItem.ENDERITE_SCRAP.get()), has(ModItem.ENDERITE_SCRAP.get()))
+                .unlockedBy(getHasName(Items.NETHERITE_INGOT), has(Items.NETHERITE_INGOT))
+                .save(pRecipeOutput);
 
 
-        // Ingredient Recipes SMELT THE SCRAPS.
+        // Ingredient Recipes SMELT THE DEBRIS.
 
     }
 }

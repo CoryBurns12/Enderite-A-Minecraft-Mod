@@ -1,11 +1,13 @@
-// 1.21.1	2024-11-23T16:17:53.2735339	Recipes
+// 1.21.1	2024-11-23T21:17:56.0584044	Recipes
 fa4efb3a3c2b3c1da4b3dc10cb41e949fc411e98 data/enderite/advancement/recipes/combat/enderite_mace.json
 947eefbb0c80801f0aca77089bafddb172f10b24 data/enderite/advancement/recipes/combat/enderite_sword.json
+25050ce0a3410d083f302e6e32652a48fbc13439 data/enderite/advancement/recipes/misc/enderite_ingot.json
 6073d037bb45f7ca2d15630eae504a8cf448c0cc data/enderite/advancement/recipes/tools/enderite_axe.json
 cb203af538ce518e686c6582872c0bd8c12f1cd2 data/enderite/advancement/recipes/tools/enderite_hoe.json
 0ecdaf8e8cf54537fde7340fe75abd5b1cd77bd2 data/enderite/advancement/recipes/tools/enderite_pickaxe.json
 75772653dd78c15e65ecd77f3e6d2c36f84edfdf data/enderite/recipe/enderite_axe.json
 d4b37b1a53b62eefddfc7ca1ccb09e8fb28a17b9 data/enderite/recipe/enderite_hoe.json
+d62c56acb287066a5ab6b34a9feb2992493c16af data/enderite/recipe/enderite_ingot.json
 5f3c4624da05986c8dd8dc584d2240126b07bbbb data/enderite/recipe/enderite_mace.json
 df298f9ec0bf3d2f042dc57ee18b50aa223c8454 data/enderite/recipe/enderite_pickaxe.json
 12b6cbb6ebc05e6b1cd3464d378c70f85b6e8829 data/enderite/recipe/enderite_sword.json

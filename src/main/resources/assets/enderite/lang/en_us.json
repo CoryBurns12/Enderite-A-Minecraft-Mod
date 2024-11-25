@@ -5,5 +5,7 @@
   "item.enderite.enderite_hoe": "Enderite Hoe",
   "item.enderite.enderite_mace": "Enderite Mace",
   "item.enderite.enderite_axe": "Enderite Axe",
-  "item.enderite.enderite_scrap": "Enderite Scrap"
+  "item.enderite.enderite_scrap": "Enderite Scrap",
+
+  "block.enderite.strange_debris": "Strange Debris"
 }
