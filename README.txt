@@ -1,5 +1,5 @@
 
-Items Added
+Items Added (WIP)
 -------------------------------------------
 Enderite Sword
 Enderite Pickaxe
